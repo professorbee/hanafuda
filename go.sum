@@ -1,0 +1,10 @@
+github.com/bwmarrin/discordgo v0.22.0 h1:uBxY1HmlVCsW1IuaPjpCGT6A2DBwRn0nvOguQIxDdFM=
+github.com/bwmarrin/discordgo v0.22.0/go.mod h1:c1WtWUGN6nREDmzIpyTp/iD3VYt4Fpx+bVyfBG7JE+M=
+github.com/deiwin/picasso v0.0.0-20150929142345-030fc7faecaa h1:cwNPcVZvFZ8ScHD4wofqfVJibq/sc6j36UuZTpNKEXU=
+github.com/deiwin/picasso v0.0.0-20150929142345-030fc7faecaa/go.mod h1:Vq8An+MqnNJmDA/z523nm7e8nMVkDpcwRIZuC0vpd+w=
+github.com/disintegration/gift v1.2.1 h1:Y005a1X4Z7Uc+0gLpSAsKhWi4qLtsdEcMIbbdvdZ6pc=
+github.com/disintegration/gift v1.2.1/go.mod h1:Jh2i7f7Q2BM7Ezno3PhfezbR1xpUg9dUg3/RlKGr4HI=
+github.com/gorilla/websocket v1.4.0 h1:WDFjx/TMzVgy9VdMMQi2K2Emtwi2QcUQsztZ/zLaH/Q=
+github.com/gorilla/websocket v1.4.0/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
+golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16 h1:y6ce7gCWtnH+m3dCjzQ1PCuwl28DDIc3VNnvY29DlIA=
+golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
