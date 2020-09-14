@@ -45,16 +45,18 @@ func main() {
 }
 
 func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
-	f, err := os.Open("montage.jpg")
-	if err != nil {
-		return
-	}
-	defer f.Close()
+
 	if m.Author.ID == s.State.User.ID {
 		return
 	}
 	if m.Content == "!draw" {
 		generateDeck()
-		s.ChannelFileSend(m.ChannelID, "montage.jpg", f)
+		generateHand()
+		hand1, err := os.Open("montage.jpg")
+		if err != nil {
+			return
+		}
+		defer hand1.Close()
+		s.ChannelFileSend(m.ChannelID, "montage.jpg", hand1)
 	}
 }
